@@ -10,6 +10,7 @@ compass:
   author: "Dillon O'Leary"
   # tagline will appear under the title (optional)
   tagline: "Student, Leader, Teamplayer"
+  email: "doleary@wisc.edu"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true

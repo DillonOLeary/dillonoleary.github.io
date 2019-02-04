@@ -16,6 +16,12 @@ layout: base
         {% if site.compass.tagline %}
         <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
         {% endif %}
+
+        {% if site.compass.email %}
+        <div class="email-container">
+        	<p><a href="mailto:{{ site.compass.email }}">{{ site.compass.email }}</a></p>
+        </div>
+        {% endif %}
     </header>
     <main>
       {% if site.compass.include_content %}
